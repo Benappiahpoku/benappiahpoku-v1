@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
   // ===== Core =====
   devtools: { enabled: true },
+  compatibilityDate: '2025-08-17',
 
   // ===== TypeScript =====
   typescript: {
