@@ -28,6 +28,11 @@ type="submit"
                     class="w-full bg-primary hover:bg-primary-700 text-white font-semibold py-3 px-4 rounded-md transition duration-300 ease-in-out transform hover:scale-[0.99] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
                     Sign In
                 </button>
+
+                <!-- ===== Toast Test Component ===== -->
+                <div class="mt-8 p-4 border-t border-gray-200">
+                    <TestToastTest />
+                </div>
             </form>
         </div>
     </main>
