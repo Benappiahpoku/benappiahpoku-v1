@@ -1,0 +1,42 @@
+{
+  "name": "benappiahpoku-v1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "concurrently  \"npm:dev:nuxt\" \"npm:dev:typecheck\"",
+    "dev:nuxt": "nuxt dev",
+    "dev:typecheck": "vue-tsc -b --noEmit --watch",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "generate-icons": "node scripts/generate-icons.js"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^7.0.0",
+    "@fortawesome/free-brands-svg-icons": "^7.0.0",
+    "@fortawesome/free-regular-svg-icons": "^7.0.0",
+    "@fortawesome/free-solid-svg-icons": "^7.0.0",
+    "@fortawesome/vue-fontawesome": "^3.1.1",
+    "@nuxt/content": "^3.6.1",
+    "@nuxt/eslint": "^1.4.1",
+    "@nuxt/image": "^1.10.0",
+    "@pinia/nuxt": "^0.11.2",
+    "@vite-pwa/nuxt": "^1.0.4",
+    "@vueuse/nuxt": "^13.6.0",
+    "better-sqlite3": "^11.10.0",
+    "concurrently": "^9.1.2",
+    "eslint": "^9.29.0",
+    "localforage": "^1.10.0",
+    "nuxt": "^3.17.5",
+    "vue": "^3.5.16",
+    "vue-router": "^4.5.1",
+    "vue-toastification": "^2.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.18.1",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "sharp": "^0.34.3",
+    "vue-tsc": "^2.2.8"
+  }
+}

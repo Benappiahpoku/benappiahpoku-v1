@@ -1,0 +1,31 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#34fbe1",
+    "activityBar.background": "#34fbe1",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#e863fc",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#34fbe1",
+    "statusBar.background": "#05f7d8",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#04c5ac",
+    "statusBarItem.remoteBackground": "#05f7d8",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#05f7d8",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#05f7d899",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#05f7d8",
+  "cSpell.words": [
+    "Abou",
+    "appinstalled",
+    "appspecific",
+    "infobar",
+    "maxage",
+    "prerender",
+    "sockjs"
+  ]
+}
