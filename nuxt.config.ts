@@ -25,6 +25,8 @@ export default defineNuxtConfig({
 
   // ===== PWA Configuration =====
   pwa: {
+    disable: process.env.NODE_ENV === 'development',
+   
     registerType: 'autoUpdate',
     workbox: {
       // Use more specific glob patterns to avoid the _payload.json warning
