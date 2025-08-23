@@ -6,8 +6,11 @@
         <div class="flex">
           <div class="flex-shrink-0 flex items-center">
             <router-link to="/" class="flex items-center space-x-2">
-              <StratoneaLogo white />
-              <span class="text-xl font-semibold text-white">Stratonea</span>
+              <!-- ===== [New Feature] START ===== -->
+              <!-- Replaced StratoneaLogo with BenappiahpokuLogo -->
+              <BenappiahpokuLogo white />
+              <!-- ===== [New Feature] END ===== -->
+              <span class="text-xl font-semibold text-white">Ben Appiah Poku</span>
             </router-link>
           </div>
           <!-- Desktop Navigation -->
@@ -68,7 +71,10 @@ v-for="item in navItems" :key="item.path" :to="item.path"
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import StratoneaLogo from '@/components/base/StratoneaLogo.vue'
+// ===== [New Feature] START ===== 
+// Replaced StratoneaLogo import with BenappiahpokuLogo
+import BenappiahpokuLogo from '~/components/base/BenappiahpokuLogo.vue'
+// ===== [New Feature] END =====
 
 // Mobile menu state
 const isMobileMenuOpen = ref(false)
@@ -76,6 +82,8 @@ const isMobileMenuOpen = ref(false)
 // Navigation items
 const navItems = [
   { name: 'Home', path: '/' },
+  { name: 'Blog', path: '/blog' },
+  { name: 'Tools', path: '/tools' },
   { name: 'About', path: '/about' },
   { name: 'Contact', path: '/contact' }
 ]
